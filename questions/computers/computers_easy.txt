@@ -1,0 +1,20 @@
+Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?;Apple;Commodore;Microsoft;Atari;0
+In any programming language, what is the most common way to iterate through an array?;'While' loops;'If' Statements;'Do-while' loops;'For' loops;3
+When Gmail first launched, how much storage did it provide for your email?;5GB;Unlimited;1GB;512MB;2
+The programming language 'Swift' was created to replace what other programming language?;C#;Ruby;C++;Objective-C;3
+HTML is what type of language?;Macro Language;Scripting Language;Markup Language;Programming Language;2
+What amount of bits commonly equals one byte?;64;2;1;8;3
+Which computer hardware device provides an interface for all other connected devices to communicate?;Motherboard;Hard Disk Drive;Random Access Memory;Central Processing Unit;0
+In the programming language Java, which of these keywords would you put on a variable to make sure it doesn't get modified?;Static;Final;Public;Private;1
+If you were to code software in this language you'd only be able to type 0's and 1's.;Python;JavaScript;Binary;C++;2
+What is the most preferred image format used for logos in the Wikimedia database?;.png;.svg;.jpeg;.gif;1
+What is the code name for the mobile operating system Android 7.0?;Nougat;Marshmallow;Jelly Bean;Ice Cream Sandwich;0
+On Twitter, what was the original character limit for a Tweet?;120;100;160;140;3
+In "Hexadecimal", what color would be displayed from the color code? "#00FF00"?;Blue;Red;Green;Yellow;2
+What does LTS stand for in the software market?;Ludicrous Turbo Speed;Long Taco Service;Long Term Support;Ludicrous Transfer Speed;2
+The numbering system with a radix of 16 is more commonly referred to as ;Duodecimal;Hexidecimal;Binary;Octal;1
+How many values can a single byte represent?;256;1024;1;8;0
+Which programming language shares its name with an island in Indonesia?;C;Jakarta;Python;Java;3
+How long is an IPv6 address?;128 bits;32 bits;64 bits;128 bytes;0
+In computing, what does LAN stand for?;Long Antenna Node;Light Access Node;Local Area Network;Land Address Navigation;2
+What language does Node.js use?;Java;JavaScript;Java Source;Joomla Source Code;1

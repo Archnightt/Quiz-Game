@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "conio.h": "c",
+        "question_parser.h": "c",
+        "windows.h": "c",
+        "quiz_utils.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "stdbool.h": "c",
+        "ctype.h": "c"
+    }
+}

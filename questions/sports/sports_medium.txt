@@ -1,0 +1,20 @@
+At which bridge does the annual Oxford and Cambridge boat race start?;Putney;Hammersmith;Battersea;Vauxhall ;0
+With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?;Mercedes;Jordan;Benetton;Ferrari;1
+What cricketing term denotes a batsman being dismissed with a score of zero?;Bye;Carry;Beamer;Duck;3
+Which of these teams isn't a member of the NHL's "Original Six" era?;Toronto Maple Leafs;Philadelphia Flyers;New York Rangers;Boston Bruins;1
+Who was the British professional wrestler Shirley Crabtree better known as?;Kendo Nagasaki;Masambula;Giant Haystacks;Big Daddy;3
+Which Formula One driver was nicknamed 'The Professor'?;Ayrton Senna;Alain Prost;Emerson Fittipaldi;Niki Lauda;1
+Which nation hosted the FIFA World Cup in 2006?;United Kingdom;Brazil;Germany;South Africa;2
+What is the highest belt you can get in Taekwondo?;Black;White;Green;Red;0
+Which soccer team won the Copa América 2015 Championship ?;Brazil;Paraguay;Argentina;Chile;3
+What national team won the 2016 edition of UEFA European Championship?;England;Germany;France;Portugal;3
+In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?;Jules Bianchi;Ayrton Senna;Ronald Ratzenberger;Gilles Villeneuve;0
+What is the exact length of one non-curved part in Lane 1 of an Olympic Track?;84.39m;100m;100yd;109.36yd;0
+Which portuguese island is soccer player Cristiano Ronaldo from?;Santa Maria;Terceira;Madeira;Porto Santo;2
+Who won the "Champions League" in 1999?;Barcelona;Bayern Munich;Liverpool;Manchester United;3
+Who was the topscorer for England national football team?;Michael Owen;Wayne Rooney;Steven Gerrard;David Beckham;1
+Who won the 2011 Stanley Cup?;Boston Bruins;Montreal Canadiens;Toronto Maple Leafs;New York Rangers;0
+What country hosted the 2014 Winter Olympics?;Russia;Germany;Canada;United States;0
+Which NBA player has the most games played over the course of their career?;Kevin Garnett;Kobe Bryant;Robert Parish;Kareem Abdul-Jabbar;2
+Which country did Kabaddi, a contact sport involving tackling, originate from?;Australia;India;Cambodia;Turkey;1
+Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?;United States of America;Netherlands;Italy;Tunisia;3
