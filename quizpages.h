@@ -9,5 +9,6 @@ char helpPage();
 int topicPage();
 int difficultyPage();
 bool answerPage(qu_Question *question, int choice);
+void resultPage();
 
 #endif

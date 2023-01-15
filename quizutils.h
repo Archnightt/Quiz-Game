@@ -3,8 +3,9 @@
 
 #include <stdbool.h>
 #include <stddef.h>
+#include <stdlib.h>
 
-#define clrscr() printf("\e[1;1H\e[2J")
+#define clrscr() system("cls")
 
 extern const char *categories[];
 extern const char *difficulties[];

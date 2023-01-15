@@ -251,3 +251,39 @@ bool answerPage(qu_Question *question, int choice) {
     checkExit(getch());
     return choice == question->correctOption;
 }
+
+/**
+ * Prints the result of the quiz to the user.
+ *
+ * @param total the total questions presented to the user.
+ * @param correct the number of correct questions answered.
+ */
+void resultPage(int total, int correct) {
+    clrscr();
+
+    int width = 75;
+    char text[70];
+
+    printDividers(width, 4);
+    printTextCentered(width, 5, "Result of the quiz");
+    printDividers(width, 6);
+
+    printTextCentered(width, 7, "Thanks for playing the Ultimate Quiz Game!");
+    printTextLeft(width, 8, "");
+
+    snprintf(text, sizeof(text), "Total Questions: %d", total);
+    printTextLeft(width, 9, text);
+
+    snprintf(text, sizeof(text), "Correct Answers: %d", correct);
+    printTextLeft(width, 10, text);
+
+    snprintf(text, sizeof(text), "Incorrect Answers: %d", total - correct);
+    printTextLeft(width, 11, text);
+
+    printDividers(width, 12);
+
+    gotoRowCol(14, 4);
+    printf("Press Q to quit or any key to continue.");
+
+    checkExit(getch());
+}

@@ -27,6 +27,8 @@ void startGame() {
         questionsDone[i] = question->questionIndex;
         total++;
     }
+
+    resultPage(total, correct);
 }
 
 int main(void) {
