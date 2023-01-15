@@ -2,9 +2,20 @@
 
 #include <conio.h>
 #include <ctype.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+char checkExit(char ch) {
+    if (ch == 'Q' || ch == 'q') {
+        clrscr();
+        exit(0);
+        return 0;
+    }
+
+    return ch;
+}
 
 /**
  * Print the home page of the quiz game to the command prompt.
@@ -27,13 +38,13 @@ char homePage() {
     printTextLeft(width, 12, "> Press Q to quit the game.");
     printTextLeft(width, 13, "");
 
-    printTextRight(width, 14, "Enjoy the game.");
+    printTextRight(width, 14, "You can press Q anytime to exit the game.");
     printDividers(width, 15);
 
     gotoRowCol(17, 4);
     printf("Enter your choice: ");
 
-    return toupper(getch());
+    return checkExit(toupper(getch()));
 }
 
 /**
@@ -41,7 +52,7 @@ char homePage() {
  *
  * @param question the question to print.
  */
-char questionPage(qu_Question *question) {
+int questionPage(qu_Question *question) {
     clrscr();
 
     int length = strlen(question->question);
@@ -81,10 +92,10 @@ char questionPage(qu_Question *question) {
     printf("Enter your choice: ");
 
     char choice;
-    do choice = toupper(getch());
+    do choice = checkExit(toupper(getch()));
     while (choice < 65 || choice > 68);
 
-    return choice;
+    return choice - 65;
 }
 
 /**
@@ -114,7 +125,7 @@ char helpPage() {
     gotoRowCol(17, 4);
     printf("Press any key to continue.");
 
-    return toupper(getch());
+    return checkExit(toupper(getch()));
 }
 
 /**
@@ -143,6 +154,25 @@ int topicPage() {
     printf("Enter the topic number you choose: ");
     int choice;
     scanf("%d", &choice);
+
+    choice--;
+    if (choice < 0 || choice >= categoriesCount) {
+        clrscr();
+
+        int width = 61;
+        printDividers(width, 4);
+        printTextCentered(width, 5, "Topic Error");
+        printDividers(width, 6);
+
+        printTextCentered(width, 7, "Please make sure you enter a valid topic number.");
+        printDividers(width, 8);
+
+        gotoRowCol(10, 4);
+        printf("Press any key to continue.");
+
+        checkExit(getch());
+        return topicPage();
+    }
 
     return choice;
 }
@@ -174,5 +204,50 @@ int difficultyPage() {
     int choice;
     scanf("%d", &choice);
 
+    choice--;
+    if (choice < 0 || choice >= difficultiesCount) {
+        clrscr();
+
+        int width = 61;
+        printDividers(width, 4);
+        printTextCentered(width, 5, "Difficulty Error");
+        printDividers(width, 6);
+
+        printTextCentered(width, 7, "Please make sure you enter a valid difficulty number.");
+        printDividers(width, 8);
+
+        gotoRowCol(10, 4);
+        printf("Press any key to continue.");
+
+        checkExit(getch());
+        return difficultyPage();
+    }
+
     return choice;
+}
+
+/**
+ * Check if the answer the user selected was correct or not.
+ *
+ * @param question the question presented to the user.
+ * @param choice the answer that the user selected.
+ */
+bool answerPage(qu_Question *question, int choice) {
+    clrscr();
+
+    int width = 61;
+    printDividers(width, 4);
+
+    if (choice == question->correctOption)
+        printTextCentered(width, 5, "Correct Answer!");
+    else
+        printTextCentered(width, 5, "Incorrect Answer!");
+
+    printDividers(width, 6);
+
+    gotoRowCol(8, 4);
+    printf("Press any key to continue.");
+
+    checkExit(getch());
+    return choice == question->correctOption;
 }

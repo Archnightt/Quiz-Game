@@ -1,20 +1,30 @@
-How many Hz does the video standard PAL support?;60;59;50;25;2
-The internet domain .fm is the country-code top-level domain for which Pacific Ocean island nation?;Micronesia;Tuvalu;Marshall Islands;Fiji;0
-Which of these names was an actual codename for a cancelled Microsoft project?;Pollux;Saturn;Neptune;Enceladus;2
-What port does HTTP run on?;80;23;53;443;0
-Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library?;Heartbleed;Corrupted Blood;Shellscript;Shellshock;0
-What is the name of the process that sends one qubit of information using two bits of classical information?;Quantum Teleportation;Quantum Programming;Quantum Entanglement;Super Dense Coding;0
-What internet protocol was documented in RFC 1459?;HTTP;IRC;FTP;HTTPS;1
-What does the International System of Quantities refer 1024 bytes as?;Kylobyte;Kilobyte;Kelobyte;Kibibyte;3
-Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?;Cheetah;Leopard;Tiger;Puma;0
-Dutch computer scientist Mark Overmars is known for creating which game development engine?;Torque 2D;Stencyl;Construct;Game Maker;3
-What vulnerability ranked #1 on the OWASP Top 10 in 2013?;Cross-Site Scripting;Broken Authentication;Insecure Direct Object References;Injection ;3
-Who invented the "Spanning Tree Protocol"?;Michael Roberts;Radia Perlman;Paul Vixie;Vint Cerf;1
-The acronym "RIP" stands for which of these?;Routine Inspection Protocol;Regular Interval Processes;Routing Information Protocol;Runtime Instance Processes;2
-What was the name of the first Bulgarian personal computer?;Pravetz 82;Pravetz 8D;IZOT 1030;IMKO-1;3
-What type of sound chip does the Super Nintendo Entertainment System (SNES) have?;ADPCM Sampler;PCM Sampler;FM Synthesizer;Programmable Sound Generator (PSG);0
-Which of the following computer components can be built using only NAND gates?;RAM;ALU;CPU;Register;1
-What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?;Broadwell;Coffee Lake;Sandy Bridge;Skylake;1
-Lenovo acquired IBM's personal computer division, including the ThinkPad line of laptops and tablets, in what year?;2002;2008;1999;2005;3
-Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?;Cherry MX Blue;Cherry MX Black;Cherry MX Brown;Cherry MX Red;0
-Which kind of algorithm is Ron Rivest not famous for creating?;Secret sharing scheme;Hashing algorithm;Asymmetric encryption;Stream cipher;0
+The Harvard architecture for micro-controllers added which additional bus?;Instruction;Control;Data;Address;0;0
+What was the name of the security vulnerability found in Bash in 2014?;Heartbleed;Shellshock;Stagefright;Bashbug;1;1
+How many Hz does the video standard PAL support?;59;25;60;50;3;2
+The internet domain .fm is the country-code top-level domain for which Pacific Ocean island nation?;Fiji;Tuvalu;Marshall Islands;Micronesia;3;3
+Which of these names was an actual codename for a cancelled Microsoft project?;Enceladus;Pollux;Saturn;Neptune;3;4
+What port does HTTP run on?;23;53;443;80;3;5
+Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library?;Shellshock;Shellscript;Corrupted Blood;Heartbleed;3;6
+Who is the original author of the realtime physics engine called PhysX?;Nvidia;AMD;NovodeX;Ageia;2;7
+Which data structure does FILO apply to?;Heap;Tree;Queue;Stack;3;8
+Which of the following is the oldest of these computers by release date?;TRS-80;Apple 3;ZX Spectrum;Commodore 64;0;9
+What is the name of the process that sends one qubit of information using two bits of classical information?;Quantum Teleportation;Super Dense Coding;Quantum Entanglement;Quantum Programming;0;10
+America Online (AOL) started out as which of these online service providers?;Prodigy;Quantum Link;CompuServe;GEnie;1;11
+What internet protocol was documented in RFC 1459?;HTTPS;IRC;HTTP;FTP;1;12
+Which of these is not a key value of Agile software development?;Individuals and interactions;Customer collaboration;Responding to change;Comprehensive documentation;3;13
+What does the International System of Quantities refer 1024 bytes as?;Kilobyte;Kelobyte;Kylobyte;Kibibyte;3;14
+Which RAID array type is associated with data mirroring?;RAID 0;RAID 5;RAID 10;RAID 1;3;15
+What was the first company to use the term "Golden Master"?;Apple;IBM;Google;Microsoft;0;16
+Dutch computer scientist Mark Overmars is known for creating which game development engine?;Game Maker;Stencyl;Torque 2D;Construct;0;17
+What is the name given to layer 4 of the Open Systems Interconnection (ISO) model?;Network;Transport;Data link;Session;1;18
+What vulnerability ranked #1 on the OWASP Top 10 in 2013?;Broken Authentication;Injection ;Cross-Site Scripting;Insecure Direct Object References;1;19
+Who invented the "Spanning Tree Protocol"?;Radia Perlman;Paul Vixie;Michael Roberts;Vint Cerf;0;20
+According to DeMorgan's Theorem, the Boolean expression (AB)' is equivalent to:;A' + B';A'B + B'A;A'B';AB' + AB;0;21
+What major programming language does Unreal Engine 4 use?;C++;Assembly;C#;ECMAScript;0;22
+The acronym "RIP" stands for which of these?;Regular Interval Processes;Routing Information Protocol;Runtime Instance Processes;Routine Inspection Protocol;1;23
+Which of these is not a layer in the OSI model for data communications?;Transport Layer;Application Layer;Connection Layer;Physical Layer;2;24
+What was the name of the first Bulgarian personal computer?;Pravetz 82;IMKO-1;IZOT 1030;Pravetz 8D;1;25
+What type of sound chip does the Super Nintendo Entertainment System (SNES) have?;FM Synthesizer;PCM Sampler;ADPCM Sampler;Programmable Sound Generator (PSG);2;26
+What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?;Broadwell;Skylake;Sandy Bridge;Coffee Lake;3;27
+Which kind of algorithm is Ron Rivest not famous for creating?;Secret sharing scheme;Hashing algorithm;Stream cipher;Asymmetric encryption;0;28
+Who is the founder of Palantir?;Marc Benioff;Jack Dorsey;Peter Thiel;Mark Zuckerberg;2;29

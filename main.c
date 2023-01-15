@@ -8,27 +8,25 @@
  */
 void startGame() {
     helpPage();
-    int topic = topicPage() - 1;
 
-    if (topic < 0 || topic >= categoriesCount) {
-        clrscr();
+    int topicIndex = topicPage();
+    int difficultyIndex = difficultyPage();
+    int total = 0, correct = 0, questionsDone[5];
 
-        int width = 61;
-        printDividers(width, 4);
-        printTextCentered(width, 5, "Topic Error");
-        printDividers(width, 6);
+    for (int i = 0; i < 5; i++) {
+        qu_Question *question = qu_getRandomQuestion(
+            categories[topicIndex],
+            difficulties[difficultyIndex],
+            total,
+            questionsDone);
 
-        printTextCentered(width, 7, "Please make sure you enter a valid topic number.");
-        printDividers(width, 8);
+        int choice = questionPage(question);
+        if (answerPage(question, choice))
+            correct++;
 
-        gotoRowCol(10, 4);
-        printf("Press any key to continue.");
-
-        getch();
-        return;
+        questionsDone[i] = question->questionIndex;
+        total++;
     }
-
-    int total = 0, correct = 0, questionsDone[20];
 }
 
 int main(void) {

@@ -1,20 +1,30 @@
-At which bridge does the annual Oxford and Cambridge boat race start?;Putney;Hammersmith;Battersea;Vauxhall ;0
-With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?;Mercedes;Jordan;Benetton;Ferrari;1
-What cricketing term denotes a batsman being dismissed with a score of zero?;Bye;Carry;Beamer;Duck;3
-Which of these teams isn't a member of the NHL's "Original Six" era?;Toronto Maple Leafs;Philadelphia Flyers;New York Rangers;Boston Bruins;1
-Who was the British professional wrestler Shirley Crabtree better known as?;Kendo Nagasaki;Masambula;Giant Haystacks;Big Daddy;3
-Which Formula One driver was nicknamed 'The Professor'?;Ayrton Senna;Alain Prost;Emerson Fittipaldi;Niki Lauda;1
-Which nation hosted the FIFA World Cup in 2006?;United Kingdom;Brazil;Germany;South Africa;2
-What is the highest belt you can get in Taekwondo?;Black;White;Green;Red;0
-Which soccer team won the Copa América 2015 Championship ?;Brazil;Paraguay;Argentina;Chile;3
-What national team won the 2016 edition of UEFA European Championship?;England;Germany;France;Portugal;3
-In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?;Jules Bianchi;Ayrton Senna;Ronald Ratzenberger;Gilles Villeneuve;0
-What is the exact length of one non-curved part in Lane 1 of an Olympic Track?;84.39m;100m;100yd;109.36yd;0
-Which portuguese island is soccer player Cristiano Ronaldo from?;Santa Maria;Terceira;Madeira;Porto Santo;2
-Who won the "Champions League" in 1999?;Barcelona;Bayern Munich;Liverpool;Manchester United;3
-Who was the topscorer for England national football team?;Michael Owen;Wayne Rooney;Steven Gerrard;David Beckham;1
-Who won the 2011 Stanley Cup?;Boston Bruins;Montreal Canadiens;Toronto Maple Leafs;New York Rangers;0
-What country hosted the 2014 Winter Olympics?;Russia;Germany;Canada;United States;0
-Which NBA player has the most games played over the course of their career?;Kevin Garnett;Kobe Bryant;Robert Parish;Kareem Abdul-Jabbar;2
-Which country did Kabaddi, a contact sport involving tackling, originate from?;Australia;India;Cambodia;Turkey;1
-Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?;United States of America;Netherlands;Italy;Tunisia;3
+At which bridge does the annual Oxford and Cambridge boat race start?;Battersea;Putney;Hammersmith;Vauxhall ;1;0
+Which German sportswear company's logo is the 'Formstripe'?;Nike;Adidas;Reebok;Puma;3;1
+Which of these teams isn't a member of the NHL's "Original Six" era?;Toronto Maple Leafs;Boston Bruins;New York Rangers;Philadelphia Flyers;3;2
+What is the nickname of Northampton town's rugby union club?;Saracens;Saints;Wasps;Harlequins;1;3
+How many scoring zones are there on a conventional dart board?;62;42;82;102;2;4
+In a game of snooker, what colour ball is worth 3 points?;Green;Brown;Yellow;Blue;0;5
+The F1 season of 1994 is remembered for what tragic event?;Schumacher's Ban (Britain);Verstappen on Fire (Germany);The Showdown (Australia);Death of Ayrton Senna (San Marino);3;6
+What is the highest belt you can get in Taekwondo?;Green;Black;Red;White;1;7
+Which country is hosting the 2022 FIFA World Cup?;Qatar;Uganda;Vietnam;Bolivia;0;8
+Which team was the 2015-2016 NBA Champions?;Golden State Warriors;Oklahoma City Thunders;Toronto Raptors;Cleveland Cavaliers;3;9
+Which team was the 2014-2015 NBA Champions?;Atlanta Hawks;Houston Rockets;Cleveland Cavaliers;Golden State Warriors;3;10
+Josh Mansour is part of what NRL team?;Penrith Panthers;North Queensland Cowboys;Sydney Roosters;Melbourne Storm;0;11
+Which car manufacturer won the 2016 24 Hours of Le Mans?;Porsche;Audi;Ferrari;Toyota;0;12
+What is the oldest team in the NFL?;Arizona Cardinals;New York Giants;Green Bay Packers;Chicago Bears;0;13
+In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?;Ayrton Senna;Ronald Ratzenberger;Jules Bianchi;Gilles Villeneuve;2;14
+Who won the "Champions League" in 1999?;Bayern Munich;Barcelona;Liverpool;Manchester United;3;15
+What year was hockey legend Wayne Gretzky born?;1965;1959;1963;1961;3;16
+Which of the following pitchers was named National League Rookie of the Year for the 2013 season?;Shelby Miller;Jose Fernandez;Jacob deGrom;Matt Harvey;1;17
+Why was The Green Monster at Fenway Park was originally built?;To prevent viewing games from outside the park.;To display advertisements.;To make getting home runs harder.;To provide extra seating.;0;18
+Which car manufacturer won the 2017 24 Hours of Le Mans?;Porsche;Audi;Chevrolet;Toyota;0;19
+In what sport does Fanny Chmelar compete for Germany?;Gymnastics;Showjumping;Swimming;Skiing;3;20
+How many French Open's did Bjorn Borg win?;4;6;2;9;1;21
+Which of the following player scored a hat-trick during their Manchester United debut?;Wayne Rooney;Robin Van Persie;Cristiano Ronaldo;David Beckham;0;22
+Which professional wrestler fell from the rafters to his death during a live Pay-Per-View event in 1999?;Lex Luger;Chris Benoit;Al Snow;Owen Hart;3;23
+Who won the 2011 Stanley Cup?;Boston Bruins;Toronto Maple Leafs;Montreal Canadiens;New York Rangers;0;24
+What country hosted the 2014 Winter Olympics?;Russia;United States;Germany;Canada;0;25
+Which basketball team has attended the most NBA grand finals?;Golden State Warriors;Boston Celtics;Philadelphia 76ers;Los Angeles Lakers;3;26
+Which country did Kabaddi, a contact sport involving tackling, originate from?;Australia;India;Cambodia;Turkey;1;27
+Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?;Italy;Netherlands;Tunisia;United States of America;2;28
+Who won the 2018 Monaco Grand Prix?;Lewis Hamilton;Sebastian Vettel;Kimi Raikkonen;Daniel Ricciardo;3;29

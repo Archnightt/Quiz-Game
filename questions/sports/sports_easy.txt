@@ -1,20 +1,30 @@
-Which team won the 2015-16 English Premier League?;Leicester City;Liverpool;Cheslea;Manchester United;0
-Which country will host the 2020 Summer Olympics?;Germany;Japan;China;Australia;1
-Which driver has been the Formula 1 world champion for a record 7 times?;Michael Schumacher;Ayrton Senna;Fernando Alonso;Jim Clark;0
-How many points did LeBron James score in his first NBA game?;19;69;25;41;2
-In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?;1;4;2;3;1
-Which city did the former NHL team "The Nordiques" originiate from?;Montreal;New York;Quebec City;Houston;2
-What year did the New Orleans Saints win the Super Bowl?;2011;2008;2009;2010;3
-This Canadian television sportscaster is known for his "Hockey Night in Canada" role, a commentary show during hockey games.;Don McKellar;Don Cherry;Don Taylor ;Donald Sutherland;1
-Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?;Mike Tyson;Lennox Lewis;Evander Holyfield;Roy Jones Jr.;0
-What is the most common type of pitch thrown by pitchers in baseball?;Screwball;Fastball;Slowball;Palmball;1
-In bowling, what is the term used for getting three consecutive strikes?;Turkey;Birdie;Eagle;Flamingo;0
-Who is often called "the Maestro" in the men's tennis circuit?;Boris Becker;Roger Federer;Pete Sampras;Bill Tilden;1
-Which African American is in part responsible for integrating  Major League baseball?;Jackie Robinson;Satchell Paige;Roy Campanella;Curt Flood;0
-What is the name of Manchester United's home stadium?;Anfield;St James Park;City of Manchester Stadium;Old Trafford;3
-When was the FC Schalke 04 founded?;2008;1909;1904;1999;2
-Who did Steven Gerrard win the Champions League with?;Man City;Real Madrid;Liverpool;Chelsea;2
-The Los Angeles Dodgers were originally from what U.S. city?;Brooklyn;Seattle;Las Vegas;Boston;0
-Which year did Jenson Button won his first ever Formula One World Drivers' Championship?;2009;2006;2007;2010;0
-Which country will host the 2022 FIFA World Cup?;Japan;Switzerland;Qatar;USA;2
-Who won the 2017 Formula One World Drivers' Championship?;Nico Rosberg;Sebastian Vettel;Max Verstappen;Lewis Hamilton;3
+Which of the following sports is not part of the triathlon?;Swimming;Cycling;Horse-Riding;Running;2;0
+How many soccer players should be on the field at the same time?;24;20;26;22;3;1
+In what sport is a "shuttlecock" used?;Badminton;Rugby;Table Tennis;Cricket;0;2
+The Rio 2016 Summer Olympics held it's closing ceremony on what date?;August 19;August 23;August 17;August 21;3;3
+Which country will host the 2020 Summer Olympics?;Australia;China;Germany;Japan;3;4
+Which country has hosted the 2018 FIFA World Cup?;United States;Germany;Saudi Arabia;Russia;3;5
+Which driver has been the Formula 1 world champion for a record 7 times?;Fernando Alonso;Jim Clark;Ayrton Senna;Michael Schumacher;3;6
+What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?;0 - 1;3 - 4;7 - 1;16 - 0;2;7
+Which team won 2014 FIFA World Cup in Brazil?;Netherlands;Argentina;Germany;Brazil;2;8
+How many points did LeBron James score in his first NBA game?;25;41;69;19;0;9
+Who won the 2016 Formula 1 World Driver's Championship?;Nico Rosberg;Kimi Raikkonen;Max Verstappen;Lewis Hamilton;0;10
+Which city did the former NHL team "The Nordiques" originiate from?;Houston;Quebec City;Montreal;New York;1;11
+What year did the New Orleans Saints win the Super Bowl?;2008;2010;2011;2009;1;12
+This Canadian television sportscaster is known for his "Hockey Night in Canada" role, a commentary show during hockey games.;Don Cherry;Don McKellar;Don Taylor ;Donald Sutherland;0;13
+Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?;Evander Holyfield;Lennox Lewis;Roy Jones Jr.;Mike Tyson;3;14
+What team did England beat to win in the 1966 World Cup final?;Portugal;Soviet Union;Brazil;West Germany;3;15
+In bowling, what is the term used for getting three consecutive strikes?;Flamingo;Eagle;Birdie;Turkey;3;16
+Who is often called "the Maestro" in the men's tennis circuit?;Bill Tilden;Pete Sampras;Boris Becker;Roger Federer;3;17
+Which African American is in part responsible for integrating  Major League baseball?;Roy Campanella;Jackie Robinson;Satchell Paige;Curt Flood;1;18
+Which player holds the NHL record of 2,857 points?;Mario Lemieux ;Sidney Crosby;Gordie Howe;Wayne Gretzky;3;19
+Who won the premier league title in the 2015-2016 season following a fairy tale run?;Watford;Stoke City;Tottenham Hotspur;Leicester City;3;20
+When was the FC Schalke 04 founded?;1999;1909;1904;2008;2;21
+Who did Steven Gerrard win the Champions League with?;Real Madrid;Liverpool;Man City;Chelsea;1;22
+The Los Angeles Dodgers were originally from what U.S. city?;Boston;Las Vegas;Brooklyn;Seattle;2;23
+"Stadium of Light" is the home stadium for which soccer team?;Barcelona FC;Sunderland FC;Manchester United;Paris Saints-Germain;1;24
+Which year did Jenson Button won his first ever Formula One World Drivers' Championship?;2007;2006;2009;2010;2;25
+Which country will host the 2022 FIFA World Cup?;Switzerland;USA;Japan;Qatar;3;26
+Who won the 2017 Formula One World Drivers' Championship?;Nico Rosberg;Lewis Hamilton;Max Verstappen;Sebastian Vettel;1;27
+Who won the UEFA Champions League in 2017?;AS Monaco FC;Atletico Madrid;Real Madrid C.F.;Juventus F.C.;2;28
+Which two teams played in Super Bowl XLII?;The New York Giants & The New England Patriots;The Green Bay Packers & The Pittsburgh Steelers;The Seattle Seahawks & The Denver Broncos;The Philadelphia Eagles & The New England Patriots;0;29

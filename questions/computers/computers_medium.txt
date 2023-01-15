@@ -1,20 +1,30 @@
-Moore's law originally stated that the number of transistors on a microprocessor chip would double every...;Eight Years;Four Years;Year;Two Years;2
-When was the programming language "C#" released?;2001;1998;2000;1999;2
-What did the name of the Tor Anonymity Network orignially stand for?;The Orange Router;The Ominous Router;The Only Router;The Onion Router;3
-On which day did the World Wide Web go online?;November 24, 1995;November 12, 1990;December 20, 1990;December 17, 1996;2
-What does the acronym CDN stand for in terms of networking?;Compressed Data Network;Content Delivery Network;Content Distribution Network;Computational Data Network;1
-Generally, which component of a computer draws the most power?;Video Card;Processor;Power Supply;Hard Drive;0
-Which one of these is not an official development name for a Ubuntu release?;Mystic Mansion;Wily Werewolf;Trusty Tahr;Utopic Unicorn;0
-In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?;<slide></slide>;<marquee></marquee>;<move></move>;<scroll></scroll>;1
-In CSS, which of these values CANNOT be used with the "position" property?;relative;absolute;center;static;2
-What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?;Heat Vent;CPU Vent;Heat Sink;Temperature Decipator;2
-Which of these programming languages is a low-level language?;Assembly;C#;Pascal;Python;0
-In computing terms, typically what does CLI stand for?;Common Language Input;Common Language Interface;Control Line Interface;Command Line Interface;3
-How fast is USB 3.1 Gen 2 theoretically?;1 Gb/s;5 Gb/s;10 Gb/s;8 Gb/s;2
-What does "LCD" stand for?;Long Continuous Design;Last Common Difference;Language Control Design;Liquid Crystal Display;3
-Which of these people was NOT a founder of Apple Inc?;Steve Wozniak;Jonathan Ive;Steve Jobs;Ronald Wayne;1
-Laserjet and inkjet printers are both examples of what type of printer?;Non-impact printer;Impact printer;Daisywheel printer;Dot matrix printer;0
-The name of technology company HP stands for what?;Husker-Pollosk;Hewlett-Packard;Howard Packmann;Hellman-Pohl;1
-Approximately how many Apple I personal computers were created?;100;200;500;1000;1
-What does RAID stand for?;Range of Applications with Identical Designs;Randomized Abstract Identification Description;Redundant Array of Independent Disks;Rapid Access for Indexed Devices;2
-What does the 'S' in the RSA encryption algorithm stand for?;Stable;Shamir;Secure;Schottky;1
+Which internet company began life as an online bookstore called 'Cadabra'?;Overstock;Shopify;eBay;Amazon;3;0
+Whistler was the codename of this Microsoft Operating System.;Windows 7;Windows 95;Windows XP;Windows 2000;2;1
+Moore's law originally stated that the number of transistors on a microprocessor chip would double every...;Eight Years;Year;Four Years;Two Years;1;2
+What does AD stand for in relation to Windows Operating Systems? ;Automated Database;Alternative Drive;Active Department;Active Directory;3;3
+When was the programming language "C#" released?;2000;1999;2001;1998;0;4
+On which computer hardware device is the BIOS chip located?;Hard Disk Drive;Central Processing Unit;Graphics Processing Unit;Motherboard;3;5
+Which of the following languages is used as a scripting language in the Unity 3D game engine?;Java;Objective-C;C++;C#;3;6
+The computer OEM manufacturer Clevo, known for its Sager notebook line, is based in which country?;Germany;Taiwan;United States;China (People's Republic of);1;7
+Nvidia's headquarters are based in which Silicon Valley city?;Mountain View;Cupertino;Santa Clara;Palo Alto;2;8
+On which day did the World Wide Web go online?;December 20, 1990;November 24, 1995;November 12, 1990;December 17, 1996;0;9
+Generally, which component of a computer draws the most power?;Hard Drive;Power Supply;Video Card;Processor;2;10
+In the server hosting industry IaaS stands for...;Infrastructure as a Server;Internet and a Server;Infrastructure as a Service;Internet as a Service;2;11
+What is the name of the default theme that is installed with Windows XP?;Luna;Bliss;Neptune;Whistler;0;12
+In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?;<move></move>;<marquee></marquee>;<slide></slide>;<scroll></scroll>;1;13
+In CSS, which of these values CANNOT be used with the "position" property?;center;absolute;relative;static;0;14
+In computing terms, typically what does CLI stand for?;Common Language Input;Command Line Interface;Common Language Interface;Control Line Interface;1;15
+Which of the following is a personal computer made by the Japanese company Fujitsu?;Xmillennium ;FM-7;MSX;PC-9801;1;16
+.rs is the top-level domain for what country?;Serbia;Russia;Rwanda;Romania;0;17
+What is known as "the brain" of the Computer?;Graphics Processing Unit;Keyboard;Motherboard;Central Processing Unit;3;18
+What is the main CPU is the Sega Mega Drive / Sega Genesis?;Intel 8088;Yamaha YM2612;Motorola 68000;Zilog Z80;2;19
+What was the first Android version specifically optimized for tablets?;Marshmellow;Honeycomb;Eclair;Froyo;1;20
+Which of these people was NOT a founder of Apple Inc?;Jonathan Ive;Steve Wozniak;Ronald Wayne;Steve Jobs;0;21
+Laserjet and inkjet printers are both examples of what type of printer?;Non-impact printer;Dot matrix printer;Impact printer;Daisywheel printer;0;22
+Which programming language was developed by Sun Microsystems in 1995?;C++;Python;Solaris OS;Java;3;23
+The name of technology company HP stands for what?;Hewlett-Packard;Hellman-Pohl;Howard Packmann;Husker-Pollosk;0;24
+Approximately how many Apple I personal computers were created?;200;500;100;1000;0;25
+In programming, what do you call functions with the same name but different implementations?;Overriding;Abstracting;Overloading;Inheriting;2;26
+What does RAID stand for?;Redundant Array of Independent Disks;Randomized Abstract Identification Description;Range of Applications with Identical Designs;Rapid Access for Indexed Devices;0;27
+What is the number of keys on a standard Windows Keyboard?;76;94;64;104;3;28
+What does the 'S' in the RSA encryption algorithm stand for?;Secure;Stable;Schottky;Shamir;3;29
