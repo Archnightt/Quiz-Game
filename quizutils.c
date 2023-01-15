@@ -5,16 +5,27 @@
 #include <string.h>
 #include <windows.h>
 
+const char *categories[] = {"Computers", "Sports"};
+const char *difficulties[] = {"Easy", "Medium", "Hard"};
+
+const size_t categoriesCount = sizeof(categories) / sizeof(categories[0]);
+const size_t difficultiesCount = sizeof(difficulties) / sizeof(difficulties[0]);
+
 /**
  * Fetch a random question based on the choosen category and difficulty.
  *
  * @param category the category of the question.
  * @param difficulty the difficulty level of the question.
+ * @param questionsDone the number of questions completed by the user.
+ * @param questionIndices the index number of the questions completed.
  * @return char* the un-parsed question.
  */
-char *qu_getRawQuestion(const char *category, const char *difficulty) {
-    char command[512];
-    snprintf(command, sizeof(command), "python fetch_question.py %s %s", category, difficulty);
+char *qu_getRawQuestion(const char *category, const char *difficulty, int questionsDone, int questionIndices[]) {
+    char command[1024];
+    int written = snprintf(command, sizeof(command), "python fetch_question.py %s %s", category, difficulty);
+
+    for (int i = 0; i <= questionsDone; i++)
+        written += snprintf(command + written, sizeof(command) - written, " %d", questionIndices[i]);
 
     FILE *process_ptr = popen(command, "r");
     int size = sizeof(char) * 1024;
@@ -38,10 +49,12 @@ char *qu_getRawQuestion(const char *category, const char *difficulty) {
  *
  * @param category the category of the question.
  * @param difficulty the difficulty of the question.
+ * @param questionsDone the number of questions completed by the user.
+ * @param questionIndices the index number of the questions completed.
  * @return qu_Question* the parsed question struct.
  */
-qu_Question *qu_getRandomQuestion(const char *category, const char *difficulty) {
-    char *rawQuestion = qu_getRawQuestion(category, difficulty);
+qu_Question *qu_getRandomQuestion(const char *category, const char *difficulty, int questionsDone, int questionIndices[]) {
+    char *rawQuestion = qu_getRawQuestion(category, difficulty, questionsDone, questionIndices);
     if (rawQuestion == NULL)
         return NULL;
 
@@ -58,6 +71,9 @@ qu_Question *qu_getRandomQuestion(const char *category, const char *difficulty) 
 
     char *correctOption = strtok(NULL, ";");
     qu_question->correctOption = atoi(correctOption);
+
+    char *questionIndex = strtok(NULL, ";");
+    qu_question->questionIndex = atoi(questionIndex);
 
     return qu_question;
 }
@@ -112,6 +128,7 @@ void printDividers(int width, int row) {
  *
  * @param width the width of the text.
  * @param row the row to print the text on.
+ * @param text the text to print.
  */
 void printTextCentered(int width, int row, char *text) {
     gotoRowCol(row, 0);
@@ -129,6 +146,7 @@ void printTextCentered(int width, int row, char *text) {
  *
  * @param width the width of the text.
  * @param row the row to print the text on.
+ * @param text the text to print.
  */
 void printTextLeft(int width, int row, char *text) {
     gotoRowCol(row, 0);
@@ -146,6 +164,7 @@ void printTextLeft(int width, int row, char *text) {
  *
  * @param width the width of the text.
  * @param row the row to print the text on.
+ * @param text the text to print.
  */
 void printTextRight(int width, int row, char *text) {
     gotoRowCol(row, 0);

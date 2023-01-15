@@ -15,11 +15,9 @@ gcc **.c -o PSAP_Quiz_Game.exe && PSAP_Quiz_Game.exe
 
 GCC and Python are pre-requisites to run this project. Please ensure they are installed before proceeding with further execution.
 
-
 ## Author
 
 👤 **Division G - Group 7 (G7)**
-
 
 ## Show your support
 

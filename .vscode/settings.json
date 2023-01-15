@@ -7,6 +7,11 @@
         "stdio.h": "c",
         "stdlib.h": "c",
         "stdbool.h": "c",
-        "ctype.h": "c"
+        "ctype.h": "c",
+        "string.h": "c",
+        "quizpages.h": "c",
+        "compare": "c",
+        "type_traits": "c",
+        "quizutils.h": "c"
     }
 }
