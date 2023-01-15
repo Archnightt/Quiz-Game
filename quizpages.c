@@ -52,15 +52,18 @@ char homePage() {
  *
  * @param question the question to print.
  */
-int questionPage(qu_Question *question) {
+int questionPage(qu_Question *question, int number, int total) {
     clrscr();
 
     int length = strlen(question->question);
-    int width = strlen(question->question) > 93 ? 99 : (length + 6 > 75 ? ((length + 6) & 1 == 0 ? length + 7 : length + 6) : 75);
+    int width = strlen(question->question) > 93 ? 99 : (length + 6 > 85 ? ((length + 6) & 1 == 0 ? length + 7 : length + 6) : 85);
 
     printDividers(width, 4);
 
-    printTextCentered(width, 5, "Question:");
+    char buf[64];
+    snprintf(buf, sizeof(buf), "Question (%d/%d):", number, total);
+    printTextCentered(width, 5, buf);
+
     printDividers(width, 6);
 
     // Hard-wrap question if the question length exceeds the width.

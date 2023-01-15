@@ -243,3 +243,6 @@ poetry.toml
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,c
 
 dev/
+bin/
+build_project.bat
+PSAP_Quiz_Game_Setup.iss
