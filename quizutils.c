@@ -53,10 +53,13 @@ char *qu_getRawQuestion(const char *category, const char *difficulty, int questi
  * @param questionIndices the index number of the questions completed.
  * @return qu_Question* the parsed question struct.
  */
-qu_Question *qu_getRandomQuestion(const char *category, const char *difficulty, int questionsDone, int questionIndices[]) {
+qu_Question *qu_getRandomQuestion(
+    const char *category,
+    const char *difficulty,
+    int questionsDone,
+    int questionIndices[]) {
     char *rawQuestion = qu_getRawQuestion(category, difficulty, questionsDone, questionIndices);
-    if (rawQuestion == NULL)
-        return NULL;
+    if (rawQuestion == NULL) return NULL;
 
     qu_Question *qu_question = malloc(sizeof(qu_Question));
 
@@ -64,8 +67,7 @@ qu_Question *qu_getRandomQuestion(const char *category, const char *difficulty, 
     qu_question->question = question;
 
     char **options = malloc(sizeof(char *) * 4);
-    for (int i = 0; i < 4; i++)
-        options[i] = strtok(NULL, ";");
+    for (int i = 0; i < 4; i++) options[i] = strtok(NULL, ";");
 
     qu_question->options = options;
 
