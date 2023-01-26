@@ -29,6 +29,8 @@ void startGame(int questions) {
 }
 
 int main(int argc, char *argv[]) {
+    // The default number of questions to be asked per game, can be modified via
+    // command line arguments.
     int questions = 5;
 
     if (argc > 1) questions = atoi(argv[1]);
@@ -44,6 +46,8 @@ int main(int argc, char *argv[]) {
                 break;
         }
 
+        // Keep the option Q outside the switch statement to break the loop when Q is
+        // selected rather than breaking just the switch statement.
         if (selected == 'Q') {
             clrscr();
             break;

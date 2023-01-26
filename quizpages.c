@@ -173,6 +173,7 @@ int topicPage() {
         gotoRowCol(10, 4);
         printf("Press any key to continue.");
 
+        fflush(stdin);
         checkExit(getch());
         return topicPage();
     }
@@ -222,6 +223,7 @@ int difficultyPage() {
         gotoRowCol(10, 4);
         printf("Press any key to continue.");
 
+        fflush(stdin);
         checkExit(getch());
         return difficultyPage();
     }
