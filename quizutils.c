@@ -5,7 +5,7 @@
 #include <string.h>
 #include <windows.h>
 
-const char *categories[] = {"Computers", "Games", "General", "Geography", "History", "Sports", "Television"};
+const char *categories[] = {"Anime", "Computers", "Games", "General", "Geography", "History", "Music", "Sports", "Television"};
 const char *difficulties[] = {"Easy", "Medium", "Hard"};
 
 const size_t categoriesCount = sizeof(categories) / sizeof(categories[0]);
